@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Abel Suviri CV</string>
+
+    <string name="summary_title">Summary</string>
+    <string name="skills_title">Skills</string>
+    <string name="experience_title">Experience</string>
+
+    <string name="cv_title">%s - %s</string>
+
+    <string name="error_message">Something went wrong requesting the CV</string>
+</resources>

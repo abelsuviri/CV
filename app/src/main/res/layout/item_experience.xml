@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        style="@style/PositionTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/positionTitleTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Senior Android Developer - ieDigital"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/positionDateTextView"
+        app:layout_constraintStart_toStartOf="@+id/positionTitleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/positionTitleTextView"
+        tools:text="April 2017 - Current employment"
+        app:layout_constraintEnd_toEndOf="@+id/positionTitleTextView"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/positionDetailTextView"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/positionDateTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/positionDateTextView"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel turpis ac magna rhoncus consectetur. Morbi ipsum risus, cursus eget egestas non, sagittis vitae arcu. Praesent facilisis semper blandit. Sed dictum eleifend eros ac dapibus. Vestibulum neque arcu, efficitur quis massa quis, fringilla elementum ex. Mauris eleifend rhoncus lorem, quis molestie quam interdum vitae. Pellentesque libero neque, eleifend vel orci vitae, consequat malesuada lorem. Proin quis massa a sapien dapibus ullamcorper a et sapien. Morbi eu sagittis lorem, eu imperdiet elit. In consequat sit amet odio et pharetra. Integer fermentum luctus nulla, et ultrices quam iaculis a. Nunc id rhoncus orci. Ut laoreet arcu eget turpis facilisis efficitur. Nam feugiat placerat lobortis. Vivamus quis libero id ex dapibus venenatis. Ut porta a justo quis accumsan."/>
+</androidx.constraintlayout.widget.ConstraintLayout>
